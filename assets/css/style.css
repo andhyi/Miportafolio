@@ -119,10 +119,25 @@ body {
     }
 
     @media (min-width: 600px) {
-      .contenedor_habilidades{
-          grid-template-columns: repeat(4, 1fr);
-          
-        
+      .hab1{
+        float: left;
+        justify-content: center;
+         align-items: center;
+      }
+      .hab2{
+        float: left;
+        justify-content: center;
+        align-items: center;
+      }
+      .hab3{
+        float: left;
+        justify-content: center;
+        align-items: center;
+      }
+      .hab4{
+        float: left;
+        justify-content: center;
+        align-items: center;
       }
       
     }
