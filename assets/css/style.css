@@ -1,3 +1,68 @@
+
+
+/* Mi texto iluminado"*/
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: -webkit-radial-gradient(#560e86, #0a0011);
+} */
+
+.willy span {
+  font-size: 80pt;
+  font-weight: bold;
+  position: relative;
+  font-family: "Fredoka One";
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.willy span::before {
+  content: var(--l);
+  position: absolute;
+  transform: scale(1.1);
+  filter: blur(15px);
+}
+.willy span::after {
+  content: var(--l);
+  position: absolute;
+  height: 200%;
+  width: 300px;
+  top: 80%;
+  left: 0;
+  filter: blur(30px);
+  transform: rotateX(50deg);
+}
+.willy span:hover {
+  filter: contrast(300%);
+}
+.willy span:nth-child(1) {
+  color: #00bef8;
+}
+.willy span:nth-child(2) {
+  color: #ff0697;
+}
+.willy span:nth-child(3) {
+  color: #ff4d00;
+}
+.willy span:nth-child(4) {
+  color: #ffe600;
+}
+.willy span:nth-child(5) {
+  color: #bb00ff;
+}
+
+
+
 html {
   font-size: 16px;
   overflow-x: hidden;
@@ -333,6 +398,9 @@ a {
 }
 
 .hero__contenedor {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
   width: min(992px, 90%);
   height: auto;
   /* border: 1px solid red; */
