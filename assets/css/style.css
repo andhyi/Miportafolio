@@ -18,6 +18,11 @@ body {
   background: -webkit-radial-gradient(#560e86, #0a0011);
 } */
 
+#principal {
+  background-image: url(../../Imagen/code.jpg) no repeat center center fixed;
+  background-size: cover;
+}
+
 .willy span {
   font-size: 80pt;
   font-weight: bold;
@@ -76,12 +81,13 @@ html {
 
 body {
 
-  /*background: url(../../Imagen/fondo4.jpg);*/
+  background: url(../../Imagen/code.jpg);
   /*background-color: rgba(173, 250, 220, 0.973);*/
   /*background: -webkit-radial-gradient(rgb(251, 252, 252), rgb(27, 14, 146));*/
+  background-size: cover ;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: white;
   font-size: 20px;
   line-height: 1.5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -473,7 +479,7 @@ a {
 }
 
 .contenedor__tarjeta{
-  border: 2px solid red;
+  /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
   flex-direction: row;
