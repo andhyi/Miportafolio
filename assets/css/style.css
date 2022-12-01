@@ -40,8 +40,8 @@ body {
 .willy span::after {
   content: var(--l);
   position: absolute;
-  height: 200%;
-  width: 300px;
+  height: 150%;
+  width: 250px;
   top: 80%;
   left: 0;
   filter: blur(30px);
@@ -424,9 +424,11 @@ a {
 .hero__subtitulo {
   margin: 0;
   margin-bottom: .75rem;
-  font-size: clamp(2rem, 5vw, 4.5rem);
+  /* font-size: clamp(1rem, 2vw, 1.5rem); */
+  font-size: clamp(1.8rem, 3.8vw, 3.1rem);
   /* border: 1px solid red; */
   color: #fff;
+  text-align: center;
 }
 
 .hero__texto {
